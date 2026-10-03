@@ -1,162 +1,70 @@
-<!DOCTYPE html>
-<html lang="id">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Resep Masakan Aceh - Mie Aceh</title>
-  <style>
-    * { box-sizing: border-box; }
-
-    body {
-      margin: 0;
-      padding: 32px 16px;
-      font-family: Georgia, "Times New Roman", serif;
-      background: #fbf3e4;
-      color: #3b2a1a;
-      line-height: 1.6;
-    }
-
-    .kartu {
-      max-width: 760px;
-      margin: 0 auto;
-      background: #fffdf8;
-      border-radius: 16px;
-      box-shadow: 0 8px 24px rgba(90, 50, 10, 0.15);
-      overflow: hidden;
-    }
-
-    header {
-      background: linear-gradient(135deg, #b3261e, #e8742c);
-      color: #fff;
-      text-align: center;
-      padding: 32px 20px;
-    }
-
-    header .sub {
-      margin: 0;
-      font-size: 0.95rem;
-      letter-spacing: 3px;
-      text-transform: uppercase;
-      opacity: 0.9;
-    }
-
-    header h1 {
-      margin: 8px 0 0;
-      font-size: 2.4rem;
-    }
-
-    main { padding: 24px 32px 32px; }
-
-    section { margin-bottom: 28px; }
-
-    h2 {
-      margin: 0 0 12px;
-      padding-bottom: 6px;
-      font-size: 1.3rem;
-      color: #b3261e;
-      border-bottom: 2px dashed #e8c9a0;
-    }
-
-    ul, ol { margin: 0; padding-left: 24px; }
-
-    li { margin-bottom: 6px; }
-
-    li::marker { color: #e8742c; font-weight: bold; }
-
-    .topping {
-      background: #fff1dc;
-      border-left: 5px solid #e8742c;
-      border-radius: 8px;
-      padding: 16px 20px;
-    }
-
-    .topping h2 { border: none; padding: 0; }
-
-    footer {
-      text-align: center;
-      padding: 16px;
-      background: #f6e6cc;
-      font-size: 0.9rem;
-    }
-
-    footer a { color: #b3261e; font-weight: bold; text-decoration: none; }
-    footer a:hover { text-decoration: underline; }
-
-    @media (max-width: 480px) {
-      header h1 { font-size: 1.8rem; }
-      main { padding: 20px; }
-    }
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title>kuahbelangong</title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2575.7">
+  <style type="text/css">
+    body {background-color: #faf0de}
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 11.4px Georgia; color: #ffffff; -webkit-text-stroke: #ffffff}
+    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 10.8px Georgia; color: #2d1f14; -webkit-text-stroke: #2d1f14; background-color: #f3e1c1}
+    li.li4 {margin: 0.0px 0.0px 6.0px 0.0px; font: 12.0px Georgia; color: #2d1f14; -webkit-text-stroke: #2d1f14}
+    span.s1 {font-kerning: none; background-color: #fffdf6}
+    span.s2 {background-color: #fffdf6; -webkit-text-stroke: 0px #000000}
+    span.s3 {font-kerning: none; background-color: #ffeed4}
+    span.s4 {background-color: #ffeed4; -webkit-text-stroke: 0px #000000}
+    span.s5 {font-kerning: none}
+    ol.ol1 {list-style-type: decimal}
+    ul.ul1 {list-style-type: disc}
   </style>
 </head>
 <body>
-  <div class="kartu">
-    <header>
-      <p class="sub">Resep Masakan Aceh</p>
-      <h1>Mie Aceh</h1>
-    </header>
-
-    <main>
-      <section>
-        <h2>Bahan-bahan</h2>
-        <ul>
-          <li>500 gr mie kuning</li>
-          <li>150 gr udang</li>
-          <li>100 gr daging sapi, potong kotak-kotak kecil</li>
-          <li>100 gr kol putih, iris</li>
-          <li>100 gr toge</li>
-          <li>1 buah tomat, potong memanjang</li>
-          <li>1 sdm kecap asin</li>
-          <li>2 batang daun bawang, iris halus</li>
-          <li>2 sdm kecap manis</li>
-          <li>4 siung bawang putih, iris</li>
-          <li>4 siung bawang merah, iris</li>
-          <li>Garam secukupnya</li>
-          <li>Kaldu jamur secukupnya</li>
-          <li>2 sdm minyak untuk menumis</li>
-        </ul>
-      </section>
-
-      <section>
-        <h2>Bumbu halus</h2>
-        <ul>
-          <li>1 sdt garam</li>
-          <li>1/2 sdt merica</li>
-          <li>1/4 sdt adas manis</li>
-          <li>2 buah kapulaga</li>
-          <li>2 buah kemiri</li>
-          <li>2 sdm bubuk kari india</li>
-          <li>3 siung bawang putih</li>
-          <li>5 buah cabai rawit</li>
-          <li>1 sdm minyak untuk menghaluskan bumbu</li>
-        </ul>
-      </section>
-
-      <section class="topping">
-        <h2>Bahan topping</h2>
-        <ul>
-          <li>Emping secukupnya</li>
-          <li>Telur ceplok/dadar</li>
-        </ul>
-      </section>
-
-      <section>
-        <h2>Cara membuat</h2>
-        <ol>
-          <li>Haluskan semua bumbu lalu tambahkan sedikit minyak. Sisihkan.</li>
-          <li>Tumis bawang merah dan bawang putih, masukkan udang dan daging. Aduk hingga berubah warna.</li>
-          <li>Masukkan bumbu halus dan mie kuning, aduk rata.</li>
-          <li>Tambahkan tauge, kecap manis, garam dan kaldu jamur. Koreksi rasa. Angkat.</li>
-          <li>Sajikan dengan topping di atasnya.</li>
-        </ol>
-      </section>
-    </main>
-
-    <footer>
-      <!-- Buka komentar ini setelah kurang_garam.html ada
-      <a href="kurang_garam.html">Tips Kurang Garam</a>
-      -->
-      Selamat mencoba!
-    </footer>
-  </div>
+<p class="p1"><span class="s1">…RESEP MASAKAN ACEH</span></p>
+<h1 style="margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 28.8px Georgia; color: #ffffff; -webkit-text-stroke: #ffffff"><span class="s1"><b>Mie Aceh</b><b></b></span></h1>
+<h2 style="margin: 0.0px 0.0px 12.0px 0.0px; font: 15.6px Georgia; color: #a21518; -webkit-text-stroke: #a21518"><span class="s1"><b>Bahan-bahan</b><b></b></span></h2>
+<ul class="ul1">
+  <li class="li4"><span class="s2"></span><span class="s1">500 gr mie kuning</span></li>
+  <li class="li4"><span class="s2"></span><span class="s1">150 gr udang</span></li>
+  <li class="li4"><span class="s2"></span><span class="s1">100 gr daging sapi, potong kotak-kotak kecil</span></li>
+  <li class="li4"><span class="s2"></span><span class="s1">100 gr kol putih, iris</span></li>
+  <li class="li4"><span class="s2"></span><span class="s1">100 gr toge</span></li>
+  <li class="li4"><span class="s2"></span><span class="s1">1 buah tomat, potong memanjang</span></li>
+  <li class="li4"><span class="s2"></span><span class="s1">1 sdm kecap asin</span></li>
+  <li class="li4"><span class="s2"></span><span class="s1">2 batang daun bawang, iris halus</span></li>
+  <li class="li4"><span class="s2"></span><span class="s1">2 sdm kecap manis</span></li>
+  <li class="li4"><span class="s2"></span><span class="s1">4 siung bawang putih, iris</span></li>
+  <li class="li4"><span class="s2"></span><span class="s1">4 siung bawang merah, iris</span></li>
+  <li class="li4"><span class="s2"></span><span class="s1">Garam secukupnya</span></li>
+  <li class="li4"><span class="s2"></span><span class="s1">Kaldu jamur secukupnya</span></li>
+  <li class="li4"><span class="s2"></span><span class="s1">2 sdm minyak untuk menumis</span></li>
+</ul>
+<h2 style="margin: 0.0px 0.0px 12.0px 0.0px; font: 15.6px Georgia; color: #a21518; -webkit-text-stroke: #a21518"><span class="s1"><b>Bumbu halus</b><b></b></span></h2>
+<ul class="ul1">
+  <li class="li4"><span class="s2"></span><span class="s1">1 sdt garam</span></li>
+  <li class="li4"><span class="s2"></span><span class="s1">1/2 sdt merica</span></li>
+  <li class="li4"><span class="s2"></span><span class="s1">1/4 sdt adas manis</span></li>
+  <li class="li4"><span class="s2"></span><span class="s1">2 buah kapulaga</span></li>
+  <li class="li4"><span class="s2"></span><span class="s1">2 buah kemiri</span></li>
+  <li class="li4"><span class="s2"></span><span class="s1">2 sdm bubuk kari india</span></li>
+  <li class="li4"><span class="s2"></span><span class="s1">3 siung bawang putih</span></li>
+  <li class="li4"><span class="s2"></span><span class="s1">5 buah cabai rawit</span></li>
+  <li class="li4"><span class="s2"></span><span class="s1">1 sdm minyak untuk menghaluskan bumbu</span></li>
+</ul>
+<h2 style="margin: 0.0px 0.0px 12.0px 0.0px; font: 15.6px Georgia; color: #a21518; -webkit-text-stroke: #a21518"><span class="s3"><b>Bahan topping</b><b></b></span></h2>
+<ul class="ul1">
+  <li class="li4"><span class="s4"></span><span class="s3">Emping secukupnya</span></li>
+  <li class="li4"><span class="s4"></span><span class="s3">Telur ceplok/dadar</span></li>
+</ul>
+<h2 style="margin: 0.0px 0.0px 12.0px 0.0px; font: 15.6px Georgia; color: #a21518; -webkit-text-stroke: #a21518"><span class="s1"><b>Cara membuat</b><b></b></span></h2>
+<ol class="ol1">
+  <li class="li4"><span class="s2"></span><span class="s1">Haluskan semua bumbu lalu tambahkan sedikit minyak. Sisihkan.</span></li>
+  <li class="li4"><span class="s2"></span><span class="s1">Tumis bawang merah dan bawang putih, masukkan udang dan daging. Aduk hingga berubah warna.</span></li>
+  <li class="li4"><span class="s2"></span><span class="s1">Masukkan bumbu halus dan mie kuning, aduk rata.</span></li>
+  <li class="li4"><span class="s2"></span><span class="s1">Tambahkan tauge, kecap manis, garam dan kaldu jamur. Koreksi rasa. Angkat.</span></li>
+  <li class="li4"><span class="s2"></span><span class="s1">Sajikan dengan topping di atasnya.</span></li>
+</ol>
+<p class="p5"><span class="s5">Selamat mencoba!</span></p>
 </body>
 </html>
